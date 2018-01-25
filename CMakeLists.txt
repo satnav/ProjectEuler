@@ -1,0 +1,36 @@
+# Specify minimum version required
+cmake_minimum_required(VERSION 3.10.1)
+
+# Specify project name
+project(euler)
+
+# Set the output directory
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+
+# Add the subdirectories containing the projects
+add_subdirectory(common)
+add_subdirectory(problem1)
+add_subdirectory(problem2)
+add_subdirectory(problem3)
+add_subdirectory(problem4)
+add_subdirectory(problem5)
+add_subdirectory(problem6)
+add_subdirectory(problem7)
+add_subdirectory(problem8)
+add_subdirectory(problem9)
+add_subdirectory(problem10)
+add_subdirectory(problem11)
+add_subdirectory(problem12)
+add_subdirectory(problem13)
+add_subdirectory(problem14)
+add_subdirectory(problem15)
+add_subdirectory(problem16)
+add_subdirectory(problem17)
+add_subdirectory(problem18)
+add_subdirectory(problem19)
+add_subdirectory(problem20)
+add_subdirectory(problem21)
+add_subdirectory(problem22)
+add_subdirectory(problem23)
+add_subdirectory(problem24)
+add_subdirectory(problem25)
